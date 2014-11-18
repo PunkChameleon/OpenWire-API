@@ -1,0 +1,37 @@
+{
+  "name": "OpenWire",
+  "version": "0.0.0",
+  "description": "First open-source news wire feed",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/streetlight/OpenWire.git"
+  },
+  "author": "streetlight <nweingartner@gmail.com> (http://github.com/streetlight)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/streetlight/OpenWire/issues"
+  },
+  "homepage": "https://github.com/streetlight/OpenWire",
+  "devDependencies": {
+    "grunt-jslint": "~1.1.12",
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "mocha": "~1.21.3"
+  },
+  "dependencies": {
+    "passport": "~0.2.0",
+    "express": "~4.7.1",
+    "ntwitter": "streetlight/ntwitter",
+    "parse": "~1.2.19",
+    "body-parser": "~1.5.2",
+    "rss": "~0.3.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
