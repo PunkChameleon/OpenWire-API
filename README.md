@@ -7,10 +7,15 @@ All content generated from the service will be distributed freely and under [Cre
 
 ### Prerequites:
 1. [Node](https://nodejs.org/en/).
+2. A Twitter API key set.
+3. A Parse API Key set.
 2. The gusto of a thousands suns!
+
+###
 
 ### To Run
 1. Clone this repo
+2. Place your respective keys into `lib/config.js` -- AKA [here](https://github.com/PunkChameleon/OpenWire-API/blob/master/lib/config.js). These are for getting localized twitter feeds and saving to a DB, respectively.
 2. Run `npm install`
 3. Run `node .`
 
